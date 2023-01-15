@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.section1{
+   /* background: rgba(255, 144, 14, 0.1); */
+   margin: 0 25px;
+   padding: 0 155px;
+   padding-top: 25px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #131313;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+nav li{
+    
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+    padding-top: 15px;
+}
+
+/* section1 end */
+
+.section2{
+    /* background: rgba(255, 144, 14, 0.1); */
+    margin: 0 25px;
+    padding: 25px 45px;
+    
+ }
+.sec2container{
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.sec2content h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.sec2content h2{
+    color: #131313;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.sec2content p{
+    padding: 0px 150px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 05px;
+}
+button{
+    background: #FF900E;
+    color: #ffffff;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+/* section2 end */
+.section3{
+    /* background: rgba(255, 144, 14, 0.1); */
+    margin: 25px;
+    padding: 25px 65px;
+ }
+.sec3-banner img{
+    width: 1000px;
+    height: 500px;
+    padding-top: 10px;
+}
+/* section3 end */
+
+.section4{
+    margin: 25px;
+    padding: 25px 65px;
+    display: flex;
+}
+.teammember{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+}
+.teammember img{
+    height: 200px;
+    
+}
+.sec4content{
+    padding-top: 100px;
+    padding-left: 55px;
+    padding-right: 65px;
+}
+.sec4content h3{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 5px;
+    
+}
+.sec4content span{
+    color: black;
+    font-weight: 500;
+    font-size: 45px;
+}
+.sec4content .span{
+    color: #FF900E;
+    font-weight: 500;
+    font-size: 45px;
+}
+.sec4content p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;;
+}
+
+/* section4 end */
+
+.section5{
+    display: flex;
+    margin: 0 55px;
+    margin-top: 25px;
+}
+.sec5textcontainer{
+    padding: 0 85px;   
+}
+
+.texttop h1{
+    color: #131313;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.texttop p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.architect-image img{
+    width: 500px;
+    height: 600px;
+}
+
+.textbottom h3{
+    color: black;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.textbottom p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* section5 end */
+
+.section6{
+    display: flex;
+    justify-content: center;
+}
+.section6 button{
+    transform: translate(75px,-65px);
+    height: 95px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 25px;
+}
+
+/* section6 ends */
+.section7{
+    margin-left: 85px;
+}
+.toptext{
+    padding-top: 25px;
+    padding-left: 65px;
+    
+}
+.toptext h1{
+    padding-bottom: 10px;
+}
+
+.boxes{
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        text-align: center;    
+}
+
+.box{
+    border: 1px solid #FF900E;
+    padding: 15px;
+}
+
+/* section7 ends */
+
+.section8{
+    margin-top: 25px;
+}
+.sec8text{
+    text-align: center;
+    padding: 15px 0px;
+}
+.sec8text p{
+    padding-top: 15px;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.logo-container img{
+    padding: 18px;
+    height: 35px;
+}
+ /* section8 end */
+ .s9box{
+    border: 1px solid #FF900E;
+    padding: 15px;
+}
+ .section9{
+   
+    margin: 35px;
+    text-align: center;  
+} 
+
+
+/* section9 end */
+ .section10{
+    background: #FFF4E7;
+    /* border: 2px solid #FFF4E7; */
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 25px;
+ }
+ .section10 p{
+    font-weight: 400;
+    font-size: 20px;
+ }
+
+ /* section10 end */
+
+
+ @media only screen and (max-width: 576px) {
+    
+    .sec3-banner img{
+        width: 100%;
+        height: 400px;
+        padding-top: 10px;
+    }
+    .section4{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teammember{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+}
+
+}
